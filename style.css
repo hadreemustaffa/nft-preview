@@ -39,6 +39,23 @@ p {
 }
 
 main {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: hsla(217, 50%, 10%, 0.25);
+	width: 25vw;
+	min-width: 430px;
+	max-width: 431px;
+	min-height: 595px;
+	padding: 15px 0 75px 0;
+	border-radius: 20px;
+	z-index: 1;
+
+}
+
+#inner-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	background-color: var(--card-bg-very-dark-blue);
@@ -48,6 +65,8 @@ main {
 	height: auto;
 	padding: 24px;
 	border-radius: 20px;
+	box-shadow: 0 30px 0 17px hsl(219, 54%, 10%);
+	z-index: 0;
 }
 
 #img-container {
