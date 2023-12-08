@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="NFT Preview Card solution for frontendmentor.io">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
@@ -18,7 +15,7 @@
     <div class="card">
       <div class="card__img">
         <img alt="image of nft art" src="./images/image-equilibrium.jpg">
-        <a href="#" class="card__img-overlay">
+        <a href="#" class="card__img-overlay" aria-label="Read more about the NFT art here">
           <img alt="" src="./images/icon-view.svg">
         </a>
       </div>
@@ -31,7 +28,7 @@
 
         <div class="flex row justify-between">
           <div class="flex row align-center g-1">
-            <img alt="" src="./images/icon-ethereum.svg">
+            <img class="icon-eth" alt="" src="./images/icon-ethereum.svg">
             <p class="card__details-price">0.041 ETH</p>
           </div>
           <div class="flex row align-center g-1">
